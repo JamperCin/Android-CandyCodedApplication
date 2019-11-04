@@ -14,8 +14,7 @@ public class CandyContract {
                     CandyEntry.COLUMN_NAME_DESC + " TEXT," +
                     CandyEntry.COLUMN_NAME_IMAGE + " TEXT)";
 
-    public static final String SQL_DELETE_ENTRIES =
-            "DROP TABLE IF EXISTS " + CandyEntry.TABLE_NAME;
+    public static final String SQL_DELETE_ENTRIES = "DROP TABLE IF EXISTS " + CandyEntry.TABLE_NAME;
 
     public static class CandyEntry implements BaseColumns {
         public static final String TABLE_NAME = "candy";
@@ -24,4 +23,7 @@ public class CandyContract {
         public static final String COLUMN_NAME_DESC = "description";
         public static final String COLUMN_NAME_IMAGE = "image";
     }
+
+
+
 }

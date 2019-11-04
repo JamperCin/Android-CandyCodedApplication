@@ -127,4 +127,7 @@ public class _1_StartTheStoreInformationActivity {
         assertEquals("onOptionsItemSelected() method doesn't exist in MainActivity class.",
                 myClass, MainActivity.class);
     }
+
+
+
 }
